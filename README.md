@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi there, I'm James Ruda 👋
 
-<!--
-**jamesruda/jamesruda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🛡️ IT Security & Systems Specialist | Tech Enthusiast | Author
 
-Here are some ideas to get you started:
+Welcome to my profile! With nearly two decades of experience in the IT landscape, I focus on server infrastructure, cybersecurity operations, system administration, and web vulnerability analysis.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🔭 What I'm Working On
+- 🔒 Building hands-on labs for web application assessment & penetration testing
+- 📜 Pursuing advanced security certifications & writeups
+- 📚 Author of *Living Your Best Life*
+
+---
+
+### 🛠️ Tech & Tools
+- **Operating Systems:** Linux, Windows Server
+- **Security & Ops:** Web Vulnerability Scanning, SOC Analysis, Server Security
+- **Scripting & Automation:** Bash, Python
+
+---
+
+### 🌐 Connect With Me
+- 📚 **Amazon Author Central:** [View Published Works](https://amazon.com)
