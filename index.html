@@ -3,62 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Ruda | Senior IT Engineer & Security Researcher</title>
     
-    <!-- Core SEO Meta Tags -->
-    <meta name="description" content="Official website of James Ruda. Senior IT Engineer specializing in security research, server infrastructure, web application vulnerability analysis, and cybersecurity.">
-    <meta name="keywords" content="James Ruda, Senior IT Engineer, Security Researcher, Vulnerability Analysis, Server Security, Systems Engineering, Cybersecurity">
-    <meta name="author" content="James Ruda">
-    <meta name="robots" content="index, follow">
+    <!-- Title Tag Optimized for Search Engine Ranking with Spaces -->
+    <title>James Ruda | Enterprise Networking & Systems Administrator</title>
+    
+    <!-- Search Engine Meta Tags -->
+    <meta name="description" content="Official portfolio of James Ruda. Systems Administrator and Enterprise Networking Specialist focusing on MSP operations, infrastructure management, and Active Directory in Gainesville, FL.">
+    <meta name="keywords" content="James Ruda, James Ruda Gainesville, Enterprise Networking, Systems Administrator, MSP Operations, Active Directory, Network Engineer">
     <link rel="canonical" href="https://jamesruda.github.io/">
 
-    <!-- Open Graph / LinkedIn Meta Tags -->
-    <meta property="og:type" content="profile">
-    <meta property="og:title" content="James Ruda | Senior IT Engineer & Security Researcher">
-    <meta property="og:description" content="Official portfolio and technical hub for James Ruda — Senior IT Engineer focusing on security research, server infrastructure, and web vulnerability analysis.">
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
     <meta property="og:url" content="https://jamesruda.github.io/">
-    <meta property="og:site_name" content="James Ruda Official Site">
-    <meta property="profile:first_name" content="James">
-    <meta property="profile:last_name" content="Ruda">
+    <meta property="og:title" content="James Ruda | Enterprise Networking & Systems Administrator">
+    <meta property="og:description" content="Professional portfolio and technical background of James Ruda, featuring expertise in enterprise networking, server administration, and MSP operations.">
 
-    <!-- Twitter / X Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="James Ruda | Senior IT Engineer & Security Researcher">
-    <meta name="twitter:description" content="Official portfolio and technical hub for James Ruda.">
-
-    <!-- Schema.org Structured Data (JSON-LD for Knowledge Graph) -->
+    <!-- Structured Data: JSON-LD Person Schema for Google Knowledge Graph -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "James Ruda",
+      "givenName": "James",
+      "familyName": "Ruda",
       "url": "https://jamesruda.github.io/",
-      "jobTitle": "Senior IT Engineer & Security Researcher",
+      "jobTitle": "Systems Administrator & Enterprise Networking Specialist",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Gainesville",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
       "knowsAbout": [
-        "Security Research",
-        "Vulnerability Analysis",
-        "Server Security & Hardening",
-        "Systems Engineering",
-        "Cybersecurity Operations",
-        "Active Directory Management"
+        "Enterprise Networking",
+        "Managed Service Provider (MSP) Operations",
+        "Systems Administration",
+        "Active Directory",
+        "Network Infrastructure",
+        "Server Maintenance"
       ],
       "sameAs": [
-        "https://github.com/jamesruda",
-        "https://www.linkedin.com/in/james-ruda"
+        "https://www.linkedin.com/in/james-ruda",
+        "https://thejamesruda.blogspot.com",
+        "https://www.facebook.com/thejamesruda/",
+        "https://bit.ly/jamesruda",
+        "https://github.com/jamesruda"
       ]
     }
     </script>
 
     <style>
         :root {
-            --bg-color: #0b0f19;
-            --card-bg: rgba(22, 27, 34, 0.75);
-            --card-border: rgba(48, 54, 61, 0.8);
-            --text-main: #f0f6fc;
-            --text-muted: #8b949e;
-            --accent-cyan: #38bdf8;
-            --accent-glow: rgba(56, 189, 248, 0.15);
-            --accent-border: rgba(56, 189, 248, 0.3);
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+            --border: #334155;
         }
 
         * {
@@ -70,310 +72,207 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
-            background-image: 
-                radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
-                radial-gradient(circle at 85% 85%, rgba(99, 102, 241, 0.08) 0%, transparent 40%);
             color: var(--text-main);
             line-height: 1.6;
-            min-height: 100vh;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
+            padding: 2rem 1rem;
         }
 
-        main {
-            width: 100%;
-            max-width: 780px;
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
         }
 
-        /* Status Badge */
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(56, 189, 248, 0.1);
-            border: 1px solid var(--accent-border);
-            color: var(--accent-cyan);
-            font-size: 0.85rem;
-            font-weight: 600;
-            padding: 6px 14px;
-            border-radius: 20px;
-            margin-bottom: 20px;
-        }
-
-        .status-dot {
-            width: 8px;
-            height: 8px;
-            background-color: var(--accent-cyan);
-            border-radius: 50%;
-            box-shadow: 0 0 8px var(--accent-cyan);
-        }
-
-        /* Header Section */
         header {
-            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 2rem;
+            margin-bottom: 2.5rem;
         }
 
         h1 {
-            font-size: 2.6rem;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            color: #ffffff;
-            margin-bottom: 8px;
+            font-size: 2.5rem;
+            color: var(--text-main);
+            letter-spacing: -0.025em;
+            margin-bottom: 0.5rem;
         }
 
-        p.title-sub {
+        .subtitle {
             font-size: 1.25rem;
-            color: var(--accent-cyan);
+            color: var(--accent);
             font-weight: 500;
-            margin-bottom: 12px;
+            margin-bottom: 0.5rem;
         }
 
-        p.location {
+        .location {
             color: var(--text-muted);
             font-size: 0.95rem;
+            margin-bottom: 1.25rem;
         }
 
-        /* Glassmorphism Cards */
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--text-main);
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            padding-bottom: 0.25rem;
+            margin-bottom: 1.25rem;
+        }
+
+        p {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1rem;
+        }
+
         .card {
-            background: var(--card-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-            transition: border-color 0.2s ease, transform 0.2s ease;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            transition: transform 0.2s ease, border-color 0.2s ease;
         }
 
         .card:hover {
-            border-color: var(--accent-border);
+            transform: translateY(-2px);
+            border-color: var(--accent);
         }
 
-        .card h2 {
-            font-size: 1.15rem;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--text-muted);
-            margin-bottom: 14px;
+        .card h3 {
+            font-size: 1.1rem;
+            color: var(--text-main);
+            margin-bottom: 0.5rem;
         }
 
-        /* Stats Grid */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 14px;
-            margin-bottom: 24px;
-        }
-
-        .stat-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--card-border);
-            border-radius: 10px;
-            padding: 16px;
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: #ffffff;
-        }
-
-        .stat-label {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
-
-        /* Skill Pill Tags */
-        .skills-group {
-            margin-bottom: 16px;
-        }
-
-        .skills-group:last-child {
+        .card p {
+            font-size: 0.9rem;
             margin-bottom: 0;
         }
 
-        .skills-label {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--accent-cyan);
-            margin-bottom: 8px;
+        ul {
+            list-style-type: none;
+            padding-left: 0;
         }
 
-        .pill-container {
+        li {
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            padding-left: 1.25rem;
+            position: relative;
+        }
+
+        li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        .links {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
+            gap: 0.75rem;
+            margin-top: 1rem;
         }
 
-        .pill {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--card-border);
-            color: var(--text-main);
-            font-size: 0.85rem;
-            padding: 6px 12px;
+        .btn {
+            display: inline-block;
+            background-color: var(--card-bg);
+            color: var(--accent);
+            border: 1px solid var(--accent);
+            padding: 0.5rem 1rem;
             border-radius: 6px;
-        }
-
-        /* Media Link Grid */
-        .media-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 14px;
-        }
-
-        .media-button {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 18px 20px;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 10px;
-            color: #ffffff;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1rem;
-            transition: all 0.2s ease-in-out;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease, color 0.2s ease;
         }
 
-        .media-button:hover {
-            background: var(--accent-glow);
-            border-color: var(--accent-cyan);
-            transform: translateY(-2px);
-            color: var(--accent-cyan);
-        }
-
-        .media-button .arrow {
-            font-size: 1.2rem;
-            transition: transform 0.2s ease;
-        }
-
-        .media-button:hover .arrow {
-            transform: translateX(4px);
+        .btn:hover {
+            background-color: var(--accent);
+            color: var(--bg-color);
         }
 
         footer {
+            margin-top: 4rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
             text-align: center;
-            margin-top: 40px;
             font-size: 0.85rem;
             color: var(--text-muted);
-        }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 2rem; }
-            p.title-sub { font-size: 1.1rem; }
-            body { padding: 20px 14px; }
         }
     </style>
 </head>
 <body>
 
-    <main>
-        <!-- Status Indicator -->
-        <div class="status-badge">
-            <span class="status-dot"></span> Security Research & Infrastructure Engineering
-        </div>
-
-        <!-- Hero Header -->
+    <div class="container">
         <header>
             <h1>James Ruda</h1>
-            <p class="title-sub">Senior IT Engineer & Security Researcher</p>
-            <p class="location">📍 Gainesville, FL | Specializing in Server Security & Vulnerability Analysis</p>
+            <div class="subtitle">Enterprise Networking & Managed IT Specialist</div>
+            <div class="location">Gainesville, Florida</div>
+            
+            <div class="links">
+                <a href="https://www.linkedin.com/in/james-ruda" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://thejamesruda.blogspot.com" class="btn" target="_blank" rel="noopener">Blog</a>
+                <a href="https://github.com/jamesruda" class="btn" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.facebook.com/thejamesruda/" class="btn" target="_blank" rel="noopener">Facebook</a>
+                <a href="https://bit.ly/jamesruda" class="btn" target="_blank" rel="noopener">Quick Link (Bitly)</a>
+            </div>
         </header>
 
-        <!-- Executive Experience Summary -->
-        <section class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">20~</div>
-                <div class="stat-label">Years IT Experience</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">L2 / L3</div>
-                <div class="stat-label">Infrastructure Escalations</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">SecOps</div>
-                <div class="stat-label">Server Security & Hardening</div>
-            </div>
-        </section>
-
-        <!-- Technical Profile Card -->
-        <section class="card">
-            <h2>Professional Profile</h2>
+        <section id="about">
+            <h2>About</h2>
             <p>
-                Senior IT Engineer with nearly two decades of operational experience spanning enterprise infrastructure, server administration, and security operations. Specialized in web application vulnerability analysis, active server hardening, threat mitigation, and high-availability systems architecture.
+                Experienced IT professional specializing in enterprise networking infrastructure, systems administration, and managed service provider (MSP) technical operations. Focused on deploying resilient network architectures, maintaining server hardware, and managing identity control systems.
             </p>
         </section>
 
-        <!-- Technical Competencies -->
-        <section class="card">
-            <h2>Core Competencies & Stack</h2>
-            
-            <div class="skills-group">
-                <div class="skills-label">🛡️ Security & Vulnerability Analysis</div>
-                <div class="pill-container">
-                    <span class="pill">Web Application Vulnerability Assessment</span>
-                    <span class="pill">Server Security & Hardening</span>
-                    <span class="pill">Threat Mitigation</span>
-                    <span class="pill">Penetration Testing Labs</span>
+        <section id="core-competencies">
+            <h2>Technical Focus</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Enterprise Networking</h3>
+                    <p>Configuration, management, and troubleshooting of routing, switching, VLAN segmentations, and network security policies.</p>
                 </div>
-            </div>
-
-            <div class="skills-group" style="margin-top: 16px;">
-                <div class="skills-label">🖥️ Systems & Infrastructure</div>
-                <div class="pill-container">
-                    <span class="pill">Linux Administration</span>
-                    <span class="pill">Windows Server Architecture</span>
-                    <span class="pill">Active Directory & GPO</span>
-                    <span class="pill">Virtualized Environments</span>
+                <div class="card">
+                    <h3>Systems Administration</h3>
+                    <p>Managing Windows/Linux server environments, Active Directory infrastructure, Group Policy Objects (GPO), and system access control.</p>
                 </div>
-            </div>
-
-            <div class="skills-group" style="margin-top: 16px;">
-                <div class="skills-label">⚙️ Tooling & Operations</div>
-                <div class="pill-container">
-                    <span class="pill">RMM (Kaseya)</span>
-                    <span class="pill">Root Cause Analysis</span>
-                    <span class="pill">Bash / Python Automation</span>
-                    <span class="pill">Incident Escalation Ownership</span>
+                <div class="card">
+                    <h3>MSP Operations</h3>
+                    <p>Executing Level 2 technical support, ticketing triage, system monitoring, and client infrastructure maintenance.</p>
+                </div>
+                <div class="card">
+                    <h3>Infrastructure & Hardware</h3>
+                    <p>Local network deployment, endpoint management, hardware diagnostics, and enterprise backup/disaster recovery solutions.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Media Hub Links -->
-        <section>
-            <h2 style="font-size: 1.15rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 14px;">Official Channels</h2>
-            <div class="media-grid">
-                <a class="media-button" href="https://github.com/jamesruda" target="_blank" rel="noopener">
-                    <span>💻 GitHub Portfolio & Repos</span>
-                    <span class="arrow">→</span>
-                </a>
-                
-                <a class="media-button" href="https://www.linkedin.com/in/james-ruda" target="_blank" rel="noopener">
-                    <span>💼 LinkedIn Network</span>
-                    <span class="arrow">→</span>
-                </a>
-                
-                <a class="media-button" href="#" target="_blank" rel="noopener">
-                    <span>📚 Author Page (Amazon)</span>
-                    <span class="arrow">→</span>
-                </a>
-
-                <a class="media-button" href="#" target="_blank" rel="noopener">
-                    <span>📜 Security Research Write-Ups</span>
-                    <span class="arrow">→</span>
-                </a>
-            </div>
+        <section id="capabilities">
+            <h2>Key Capabilities</h2>
+            <ul>
+                <li>Enterprise Network Topology & VLAN Administration</li>
+                <li>Active Directory & Identity Access Management (IAM)</li>
+                <li>MSP Incident Escalation & Technical Problem Resolution</li>
+                <li>Hardware Deployment, Diagnostics, and Server Administration</li>
+                <li>Remote Monitoring & Management (RMM) Tool Implementation</li>
+            </ul>
         </section>
 
-        <!-- Footer -->
         <footer>
-            <p>&copy; 2026 James Ruda. All rights reserved.</p>
+            <p>&copy; James Ruda. All rights reserved.</p>
         </footer>
-    </main>
+    </div>
 
 </body>
 </html>
